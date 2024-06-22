@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:title" content="The Last of Us - Trailer do Game" />
+        <meta property="og:description" content="The Last of Us, jogo de vingança e sobrevivência" />
+        <meta property="og:image" content="https://ezequiel-lee.github.io/the-last-of-us-trailer/assets/img/menu.png">
+        <meta property="og:url" content="https://ezequiel-lee.github.io/the-last-of-us-trailer/" />
+        <meta property="og:type" content="website" />
+
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/svg+xml" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="./assets/css/animate.css">
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/responsivo.css" />
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/chalet" />
+
+        <title>The Last of Us - Game Trailer</title>
+    </head>
+
+    <body>
+        
+        <header class="animated fadeIn delay-01s">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <img class="vagalumes" src="./assets/img/logo.png" alt="Logo Vagalumes">
+                </div>
+                <div  class="logo">
+                    <img class="dog" src="./assets/img/naughtydog.png" alt="Logo da Naughtydog">
+                </div>
+
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#home" class="nav-link">Menu</a></li>
+                        <li class="nav-item"><a href="#sobre" class="nav-link">The Last of Us</a></li>
+                        <li class="nav-item">
+                            <a onclick="audio.play()" href="#sobre-2" class="nav-link">The Last of Us II</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.naughtydog.com/" target="_blank" rel="noopener noreferrer" class="nav-link">Suporte 
+                                <img src="./assets/img/icone-link.svg" alt="Ícone link">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="login-button">
+                    <button><a href="#comprar" onclick="playstation.play()">Comprar</a></button>
+                </div>
+
+                <div class="mobile-menu-icon" id="mobile-menu-icon">
+                    <button onclick="animarMenu()">
+                        <img class="icon" src="./assets/img/hamburguer-btn.svg" alt="Toggle btn" />
+                    </button>
+                </div>
+            </nav>
+
+            <div class="mobile-menu" id="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">The Last of Us</a></li>
+                    <li class="nav-item">
+                        <a onclick="audio.play()" href="#sobre-2" class="nav-link">The Last of Us II</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.naughtydog.com/" 
+                         target="_blank" rel="noopener noreferrer" class="nav-link">Suporte 
+                            <img src="./assets/img/icone-link.svg" alt="Ícone link">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="login-button">
+                    <button><a href="#comprar" onclick="playstation.play()">Comprar</a></button>
+                </div>
+            </div>
+
+        </header>
+
+        <main class="home" id="home">
+
+            <video class="background" src="./assets/video/video-bg.mp4" autoplay loop muted></video>
+
+            <div class="informacoes">
+                <div class="lista-do-jogo wow fadeInLeft delay-01s">
+                    <img src="./assets/img/the-last-of-us.png" alt="Imagem The last of us">
+                </div>
+                <h1 class="titulo wow fadeInLeft delay-03s">Já disponíveis para Playstation 4 e Playstation 5</h1>
+                <p class="texto wow fadeInLeft delay-05s">
+                    Embarque nessa aventura alucinante com vários momentos e sentimentos diferentes nessa sequência do jogo.
+                </p>
+
+                <div>
+                    <a class="btn-comprar wow fadeInLeft delay-07s" href="#comprar" 
+                     onclick="playstation.play()">
+                     Compre-já
+                    </a>
+                    <a class="btn-comprar trailer wow fadeInLeft delay-07s" 
+                     href="https://youtu.be/II5UsqP2JAk?si=m7Q909E3PWAk1iPf" 
+                     target="_blank" rel="noopener noreferrer">
+                     Trailer
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <section class="tlou-1" id="sobre">
+            <div class="jogo">
+
+                <img class="wow fadeInLeft" src="./assets/img/tlou-1.png" alt="Jogo 1">
+                <div class="text wow fadeInRight">
+                    <h1>The Last of Us</h1>
+                    <p>
+                        Joel, um sobrevivente solitário e que perdeu sua filha adolescente no início do apocalipse, recebe a missão de levar para fora de uma zona de quarentena uma menina de 14 anos, chamada Ellie. A jovem é a única humana conhecida que é imune ao fungos e se torna a esperança de uma cura.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tlou-2" id="sobre-2">
+            <div class="jogo reverse wow fadeInup delay-03s">
+                
+                <div class="text wow fadeInLeft">
+                    <h1>The Last of Us Part II</h1>
+                    <p>
+                        Ambientado cinco anos após os eventos de The Last of Us, o jogador assume o papel de duas protagonistas em um Estados Unidos pós-apocalíptico: Ellie, que busca por vingança após um evento traumático, e Abby, uma soldado que se envolve em um conflito entre uma milícia e um culto em busca de redenção.
+                    </p>
+                </div>
+                <img class="wow fadeInRight" src="./assets/img/tlou-2.png" alt="Jogo 2">
+            </div>
+        </section>
+
+        <section class="compre-ja" id="comprar">
+            <h2 class="titulo wow fadeInUp">Compre já</h2>
+
+            <div class="colun">
+                <div class="cartao">
+                    <img class="capa-do-jogo wow fadeInUp delay-01s" src="./assets/img/capa-1.jpg" alt="Capa do jogo The Last of Us">
+
+                    <div class="informacoes">
+                        <h3 class="wow fadeInUp delay-01s">The Last of us</h3>
+                        <p class="wow fadeInUp delay-02s">Inclui <strong>Modo Factions Online</strong></p>
+                        <ul class="plataformas wow fadeInUp delay-03s">
+                            <li>
+                                <img src="./assets/img/logo-ps5.svg" alt="Logo Play 5">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-xbox-series-s.svg" alt="Logo X-Box series XS">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-ps4.svg" alt="Logo Play 4">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-xbox-one.svg" alt="Logo C-Box one">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-pc.svg" alt="Logo PC">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class="btn-plataforma wow fadeInUp delay-04s">
+                        Selecione a Plataforma
+
+                        <ul class="plataformas">
+                            <li>
+                                <img src="./assets/img/logo-ps5.svg" alt="Logo Play 5">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-xbox-series-s.svg" alt="Logo X-Box series XS">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-ps4.svg" alt="Logo Play 4">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-xbox-one.svg" alt="Logo C-Box one">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-pc.svg" alt="Logo PC">
+                            </li>
+                        </ul>
+                    </button>
+
+                </div>
+
+                <div class="cartao">
+                    <img class="capa-do-jogo wow fadeInUp delay-01s" src="./assets/img/capa-2.jpg" alt="Capa do jogo The Last of Us II">
+
+                    <div class="informacoes">
+                        <h3 class="wow fadeInUp delay-01s">The Last of us II</h3>
+                        <p class="wow fadeInUp delay-02s">Inclui <strong>Modo Factions Online</strong></p>
+                        <ul class="plataformas wow fadeInUp delay-03s">
+                            <li>
+                                <img src="./assets/img/logo-ps5.svg" alt="Logo Play 5">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-xbox-series-s.svg" alt="Logo X-Box series XS">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-ps4.svg" alt="Logo Play 4">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-xbox-one.svg" alt="Logo C-Box one">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-pc.svg" alt="Logo PC">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class="btn-plataforma btn-plataforma2 wow fadeInUp delay-04s">
+                        Selecione a Plataforma
+
+                        <ul class="plataformas">
+                            <li>
+                                <img src="./assets/img/logo-ps5.svg" alt="Logo Play 5">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-xbox-series-s.svg" alt="Logo X-Box series XS">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-ps4.svg" alt="Logo Play 4">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-xbox-one.svg" alt="Logo C-Box one">
+                            </li>
+                            <li>
+                                <img src="./assets/img/logo-pc.svg" alt="Logo PC">
+                            </li>
+                        </ul>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer wow fadeIn delay-01s">
+            <a href="#home">
+                <img class="vagalumes" src="./assets/img/logo.png" alt="Logo Vagalumes">
+            </a>
+            <p class="copyright">
+                &copy; 2024 <a href="https://www.instagram.com/lee_ezequiel33/" target="_blank" rel="noopener noreferrer" class="copyright-link">@Ezequiel-Lee</a>.<br> Todos Direitos Reservados.
+            </p>
+            <ul class="social-media">
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="./assets/js/wow.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+
+        <script>new WOW().init();</script>
+
+    </body>
+</html>

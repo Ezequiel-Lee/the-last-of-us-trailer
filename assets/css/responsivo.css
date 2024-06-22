@@ -1,0 +1,195 @@
+@media (max-width: 1024px) {
+
+    .home .informacoes {
+        padding: 30px;
+    }
+
+    .home .informacoes img {
+        max-width: 100px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 40px;
+    }
+
+    .compre-ja .cartao {
+        width: 70%;
+    }
+
+    .tlou-1 {
+        margin-bottom: 0;
+    }
+
+    .jogo {
+        padding: 20;
+        gap: 30px;
+    }
+    .jogo img{
+        width: 600px;
+        height: 300px;
+    }
+
+    .text {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .logo .dog {
+        padding-left: 40px;
+    }
+
+    .nav-bar {
+        padding: 1rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon.open {
+        display: block;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .btn-comprar, .home .trailer {
+        padding: 10px 24px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 35px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .tlou-1 {
+        margin-bottom: 0;
+    }
+
+    .tlou-2 {
+        margin-bottom: 25px;
+    }
+
+    .jogo {
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jogo img{
+        width: 600px;
+        height: 300px;
+    }
+
+    .text h1{
+        font-size: 35px;
+    }
+    
+    .text p{
+        font-size: 12px;
+        line-height: 1.2;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .compre-ja {
+        padding: 30px;
+    }
+
+    .compre-ja .cartao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 35px;
+    }
+
+    .btn-plataforma {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .compre-ja .titulo {
+        font-size: 38px;
+        padding: 10px;
+    }
+
+    .compre-ja .colun {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 525px) {
+    
+    .logo .dog {
+        width: 90%;
+    }
+
+    .home::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, .35), rgba(0, 0, 0, 0.1) 35%, transparent 65%);
+    }
+
+    .compre-ja .cartao .capa-do-jogo {
+        max-width: 80%;
+    }
+
+    .mobile-menu-icon {
+        justify-content: space-between;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0.8rem;
+        gap: 10px;
+    }
+
+    footer .social-media {
+        gap: 20px;
+    }
+
+}
